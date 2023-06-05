@@ -1,0 +1,40 @@
+{
+  "name": "barnowl-csl",
+  "homepage": "https://github.com/reelyactive/barnowl-csl/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "Collect ambient RAIN RFID data from CSL readers.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "barnowl",
+    "CSL",
+    "raddec"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./lib/barnowlcsl.js",
+  "scripts": {
+    "start": "node bin/barnowl-csl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/barnowl-csl.git"
+  },
+  "dependencies": {
+    "raddec": ">=0.4.3"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/barnowl-csl/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}

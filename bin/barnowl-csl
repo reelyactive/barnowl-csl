@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const BarnowlCsl = require('../lib/barnowlcsl.js');
+
+let barnowl = new BarnowlCsl();
+
+barnowl.addListener(BarnowlCsl.HttpListener, { port: 3001 });
+
+barnowl.on('raddec', function(raddec) {
+  console.log(raddec.toFlattened());
+});
