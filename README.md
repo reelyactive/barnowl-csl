@@ -53,8 +53,9 @@ From the same folder as the server.js file, install package dependencies with th
   transmitterIdType: 5,
   rssiSignature: [
     {
-      receiverId: "001625ffffff",
+      receiverId: "00057bffffff",
       receiverIdType: 2,
+      receiverAntenna: 1,
       rssi: -42,
       numberOfDecodings: 1
     }
