@@ -3,6 +3,8 @@ barnowl-csl
 
 __barnowl-csl__ converts the decodings of _any_ ambient RAIN RFID tags by Convergence Systems Ltd. (CSL) readers into standard developer-friendly JSON that is vendor/technology/application-agnostic.
 
+![Overview of barnowl-csl](https://reelyactive.github.io/barnowl-csl/images/overview.png)
+
 __barnowl-csl__ is a lightweight [Node.js package](https://www.npmjs.com/package/barnowl-csl) that can run on the CS463 reader itself, or on resource-constrained edge devices as well as on powerful cloud servers and anything in between.  It is included in reelyActive's [Pareto Anywhere](https://www.reelyactive.com/pareto/anywhere/) open source middleware suite, and can just as easily be run standalone behind a [barnowl](https://github.com/reelyactive/barnowl) instance, as detailed in the code examples below.
 
 
