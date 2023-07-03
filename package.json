@@ -10,11 +10,12 @@
     "reelyActive",
     "barnowl",
     "CSL",
+    "CS463",
     "raddec"
   ],
-  "version": "0.2.0",
+  "version": "1.0.0",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "main": "./lib/barnowlcsl.js",
   "scripts": {
